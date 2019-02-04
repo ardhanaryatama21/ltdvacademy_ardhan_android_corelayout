@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CoreLayout</string>
+    <string name="gambar">orang</string>
+    <string name="highdestiny">High Destiny</string>
+    <string name="latihan">Latihan</string>
+    <string name="text">Nama Saya Ardhan Ini Tugas Saya</string>
+    <string name="activity2">Menuju Activity 2</string>
+    <string name="berhasil">Berhasil</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".splashscreen">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="9dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="14dp"
+        android:indeterminate="true"
+        android:max="@android:integer/config_longAnimTime"
+        android:progress="@android:integer/config_shortAnimTime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="197dp"
+        android:layout_height="144dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="107dp"
+        android:contentDescription="@string/gambar"
+        android:src="@drawable/ic_senyum"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textHigh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/highdestiny"
+        android:textColor="#FFFFFF"
+        android:textSize="65sp" />
+
+</RelativeLayout>

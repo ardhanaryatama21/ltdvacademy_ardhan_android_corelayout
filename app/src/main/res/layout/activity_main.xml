@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="173dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="114dp"
+        app:srcCompat="@drawable/boy"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="121dp"
+        android:contentDescription="@string/gambar" />
+
+    <Button
+        android:id="@+id/btnklik"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/klik"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:drawableEnd="@drawable/ic_next"
+        android:text="@string/activity2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="23dp"
+        android:text="@string/text"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+</RelativeLayout>
